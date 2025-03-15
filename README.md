@@ -21,3 +21,7 @@ The program will now also allow to specify the playback volume using this syntax
 ### `free`
 Shows the free and total space in the current or the specified directory. <br/>
 Usage: `free [directory]`
+
+### Turtles: `dig`
+Digs a block in front, above or below the turtle. If a lenght is specified it will dig a 1x1 tunnel of that length in the specified direction. <br/>
+Usage: `dig <direction> [length]`

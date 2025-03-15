@@ -4,4 +4,4 @@ Finish free.lua
     ¿Add more info to free.lua? (bytes used, % free or % used)
     Part of the free.lua functionality is already provided by drive.lua
 Add licensing information
-Allow selecting direction (and tool position?) in dig.lua, attack.lua and place.lua.
+Allow selecting direction in attack.lua and place.lua.
