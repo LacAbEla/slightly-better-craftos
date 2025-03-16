@@ -12,20 +12,20 @@ else
     end
     
     local digCommand, moveCommand, detectCommand
-    if direction == "forward" then
+    if direction == "forward" or direction == "f" then
         digCommand = turtle.dig
         moveCommand = turtle.forward
         detectCommand = turtle.detect
-    elseif direction == "up" then
+    elseif direction == "up" or direction == "u" then
         digCommand = turtle.digUp
         moveCommand = turtle.up
         detectCommand = turtle.detectUp
-    elseif direction == "down" then
+    elseif direction == "down" or direction == "d" then
         digCommand = turtle.digDown
         moveCommand = turtle.down
         detectCommand = turtle.detectDown
     else
-        error("Invalid direction", 0)
+        error("Invalid direction. Try: forward, up, down.", 0)
     end
     
     if length == nil then
@@ -39,10 +39,12 @@ else
         for i=1, length do
             local success, msg = digCommand()
             if not success and detectCommand() then
-                -- Digging failed but a block is still there
+                -- Digging failed and the block remains there
                 error(msg, 0)
             end
-            moveCommand()
+            if not moveCommand() and turtle.getFuelLevel() == 0 then
+                error("Out of fuel", 0)
+            end
         end
     end
 end
