@@ -35,3 +35,6 @@ Usages:
 ### Turtle: `dig`
 Digs a block in front, above or below the turtle. If a length is specified it will dig a 1x1 tunnel of that length in the specified direction. <br/>
 Usage: `dig <direction> [length]`
+
+### Turtle: `fuel`
+Displays the current fuel level of the turtle and its fuel capacity.
