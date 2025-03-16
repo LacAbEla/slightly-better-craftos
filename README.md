@@ -23,6 +23,15 @@ The program will also allow to specify the playback volume by adding it at the e
 Shows the free and total space in the current or the specified directory. <br/>
 Usage: `free [directory]`
 
+### Turtle: `slot`
+Allows seeing the contents of the turtle's inventory, checking the selected slot and changing it.
+<br/>
+Usages:
+- `slot show` to show the selected slot and its contents
+- `slot show <number>` to show the contents of the specified slot
+- `slot select <number>` to select the specified slot
+- `slot list` to show the contents of all slots
+
 ### Turtle: `dig`
 Digs a block in front, above or below the turtle. If a length is specified it will dig a 1x1 tunnel of that length in the specified direction. <br/>
 Usage: `dig <direction> [length]`
