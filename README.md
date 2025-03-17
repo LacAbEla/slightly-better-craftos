@@ -18,7 +18,11 @@ Deleting this pack from a world won't damage it in any way, though programs may 
 Songs will now play at volume 2 instead of 1 by default (the range is 0.0 to 3.0). <br/>
 The program will also allow to specify the playback volume by adding it at the end of the original syntax: `speaker play <file or url> [speaker] [volume]`.
 
-## Added programs
+## New programs
+### `cat`
+Shows the contents of the specified file. <br/>
+Usage: `cat <file>`
+
 ### `free`
 Shows the free and total space in the current or the specified directory. <br/>
 Usage: `free [directory]`
