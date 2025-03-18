@@ -5,3 +5,4 @@ Finish free.lua
     Part of the free.lua functionality is already provided by drive.lua
 Add licensing information
 Allow selecting direction in attack.lua and place.lua.
+Add paging to `slot list`
