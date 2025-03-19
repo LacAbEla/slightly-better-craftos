@@ -1,3 +1,8 @@
+<!--
+SPDX-FileCopyrightText: 2025 LacAbEla
+SPDX-License-Identifier: MPL-2.0
+-->
+
 # Slightly Better CraftOS
 I think the computers from ComputerCraft lack a few basic commands by default, forcing the player to use Lua for some basic functionality. <br/>
 This datapack aims to make CraftOS feel more complete by adding such commands without altering the feel of the OS.
@@ -36,9 +41,9 @@ Usages:
 - `slot select <number>` to select the specified slot
 - `slot list` to show the contents of all slots
 
+### Turtle: `fuel`
+Displays the current fuel level of the turtle and its fuel capacity.
+
 ### Turtle: `dig`
 Digs a block in front, above or below the turtle. If a length is specified it will dig a 1x1 tunnel of that length in the specified direction. <br/>
 Usage: `dig <direction> [length]`
-
-### Turtle: `fuel`
-Displays the current fuel level of the turtle and its fuel capacity.

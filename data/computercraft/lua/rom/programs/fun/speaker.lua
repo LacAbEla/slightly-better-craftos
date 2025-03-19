@@ -1,3 +1,7 @@
+-- SPDX-FileCopyrightText: 2021 The CC: Tweaked Developers
+-- SPDX-FileCopyrightText: 2025 LacAbEla
+-- SPDX-License-Identifier: LicenseRef-CCPL
+
 -- Modification of the base speaker.lua (in CC:T 1.101.3) to
 -- allow specifying the audio volume and setting the default to 2
 

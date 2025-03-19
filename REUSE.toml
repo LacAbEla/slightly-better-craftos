@@ -1,0 +1,15 @@
+version = 1
+
+# The mcmeta format does not allow comments
+[[annotations]]
+path = "pack.mcmeta"
+SPDX-FileCopyrightText = "2025 LacAbEla"
+SPDX-License-Identifier = "MPL-2.0"
+
+# Files without copyright
+[[annotations]]
+path = [
+    "TODO.txt"
+]
+SPDX-FileCopyrightText = "NONE"
+SPDX-License-Identifier = "CC0-1.0"

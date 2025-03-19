@@ -1,3 +1,6 @@
+-- SPDX-FileCopyrightText: 2025 LacAbEla
+-- SPDX-License-Identifier: MPL-2.0
+
 local filename = ...
 if not filename then
     print("Usage: cat <file>")
